@@ -826,9 +826,7 @@ footer {
         float: none
     }
 
-    .project-image {
-        display: none
-    }
+    
 
     .project-info {
         position: relative;
