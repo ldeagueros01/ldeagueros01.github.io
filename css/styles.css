@@ -263,10 +263,12 @@ footer {
     height: 140vh;
     min-height: 500px;
     max-height: 1080px;
-
+    background-color: dodgerblue;
     padding: 15px;
     overflow: hidden
 }
+
+
 
 #lead-content {
     position: absolute;
