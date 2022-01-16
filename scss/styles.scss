@@ -38,7 +38,7 @@ $base-color: #3498db;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
-$background: #fff;
+$background: black;
 $background-alt: #f2f2f5;
 
 // Define border colors
@@ -350,8 +350,8 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/lead-bg.jpg);
-    background-size: cover;
+    background: url(../images/profile.jpg) no-repeat center;
+    background-size: contain;
     padding: 15px;
     overflow: hidden;
 }
@@ -999,3 +999,4 @@ footer {
     }
 
 }
+
