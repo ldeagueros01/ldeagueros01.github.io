@@ -189,24 +189,24 @@ footer {
 }
 
 .social {
-    text-align: right
+    text-align: right;
 }
 
 .social ul {
     margin: 5px 0 0 0;
-    padding: 0
+    padding: 0;
 }
 
 .social li {
     display: inline-block;
-    font-size: 1.25em;
-    list-style: none
+    font-size: 3em;
+    list-style: none;
 }
 
 .social a {
     display: block;
     color: red;
-    padding: 10px
+    padding: 15px;
 }
 
 .social a:hover {
@@ -268,7 +268,8 @@ footer {
     /*background: url(../images/electronic.jpg) no-repeat center;
     background-size: contain;*/
     background-color: #0e84b5;
-    padding: 15px;
+    border: 20px double black;
+    padding: 10px;
     overflow: hidden
 }
 
@@ -366,7 +367,7 @@ footer {
 
 #about p {
     color: white;
-    margin: 0
+    margin: 0;
 }
 
 #experience {
