@@ -97,7 +97,7 @@ header a {
 header a:hover {
     color: #217dbb;
     text-decoration: none;
-    background: #eee;
+    background: burlywood;
     border-radius: 4px
 }
 
@@ -130,7 +130,7 @@ header.sticky {
     z-index: 20;
     padding: 0 7px;
     border-radius: 4px;
-    background: #fff
+    background: black;
 }
 
 #mobile-menu-close {
@@ -164,7 +164,7 @@ footer {
 
 .copyright p {
     margin: 0;
-    color: #74808a
+    color: black;
 }
 
 .top {
@@ -178,12 +178,12 @@ footer {
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    border: 3px solid #b9bfc4;
+    border: 3px solid blue;
     text-align: center
 }
 
 .top i {
-    color: #74808a
+    color: black;
 }
 
 .social {
@@ -203,7 +203,7 @@ footer {
 
 .social a {
     display: block;
-    color: #74808a;
+    color: red;
     padding: 10px
 }
 
@@ -255,7 +255,7 @@ footer {
 }
 
 .background-alt {
-    background: #f2f2f5
+    background: black;
 }
 
 #lead {
@@ -263,7 +263,9 @@ footer {
     height: 140vh;
     min-height: 500px;
     max-height: 1080px;
-    background-color: dodgerblue;
+    /*background: url(../images/electronic.jpg) no-repeat center;
+    background-size: contain;*/
+    background-color: #0e84b5;
     padding: 15px;
     overflow: hidden
 }
@@ -299,7 +301,7 @@ footer {
     margin-bottom: 15px
 }
 
-#lead-overlay {
+/*#lead-overlay {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -309,7 +311,7 @@ footer {
     left: 0;
     background: rgba(32, 125, 198, 0.4);
     z-index: 1
-}
+}*/
 
 #lead-down {
     position: absolute;
@@ -357,11 +359,11 @@ footer {
 }
 
 #about h2 {
-    color: #374054
+    color: burlywood;
 }
 
 #about p {
-    color: #74808a;
+    color: white;
     margin: 0
 }
 
@@ -372,7 +374,7 @@ footer {
 }
 
 #experience h2 {
-    color: #374054
+    color: burlywood;
 }
 
 #experience-timeline {
@@ -407,8 +409,8 @@ footer {
 
 .vtimeline-content {
     margin-left: 350px;
-    background: #fff;
-    border: 1px solid #e6e6e6;
+    background: burlywood;
+    border: 5px solid white;
     padding: 15px;
     border-radius: 3px;
     text-align: left
@@ -417,7 +419,7 @@ footer {
 .vtimeline-content h3 {
     font-size: 1.5em;
     font-weight: 300;
-    color: #374054;
+    color: black;
     display: inline-block;
     margin: 0
 }
@@ -425,12 +427,12 @@ footer {
 .vtimeline-content h4 {
     font-size: 1.2em;
     font-weight: 300;
-    color: #7e8890;
+    color: black;
     margin: 0 0 15px 0
 }
 
 .vtimeline-content p {
-    color: #74808a;
+    color: black;
     font-size: 0.9em;
     margin: 0
 }
@@ -467,7 +469,7 @@ footer {
     left: 0;
     top: 10px;
     font-weight: 300;
-    color: #374054
+    color: white;
 }
 
 #education {
@@ -477,7 +479,7 @@ footer {
 }
 
 #education h2 {
-    color: #374054;
+    color: burlywood;
     margin-bottom: 50px
 }
 
@@ -485,7 +487,8 @@ footer {
     max-width: 700px;
     margin: 0 auto 30px auto;
     padding: 15px;
-    border: 1px solid #dcd9d9;
+    border: 3px solid white;
+    background: burlywood;
     text-align: left
 }
 
@@ -493,16 +496,16 @@ footer {
     font-weight: 500;
     float: left;
     margin: 0;
-    color: #374054
+    color: black;
 }
 
 .education-block span {
-    color: #74808a;
+    color: black;
     float: right
 }
 
 .education-block h4 {
-    color: #74808a;
+    color: black;
     clear: both;
     font-weight: 500;
     margin: 0 0 15px 0
@@ -510,7 +513,7 @@ footer {
 
 .education-block p, .education-block ul {
     margin: 0;
-    color: #74808a;
+    color: black;
     font-size: 0.9em
 }
 
@@ -531,7 +534,7 @@ footer {
 }
 
 #projects h2 {
-    color: #374054;
+    color: burlywood;
     margin-bottom: 50px
 }
 
@@ -540,41 +543,32 @@ footer {
     max-width: 900px;
     margin: 0 auto 30px auto;
     overflow: hidden;
-    background: #fff;
+    background: burlywood;
     border-radius: 4px
 }
 
-.project-image {
-    float: left
-}
 
-.project-info {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-left: 300px;
-    padding: 15px
-}
+
 
 .project-info h3 {
-    font-size: 1.5em;
+    /*font-size: 1.5em;
     font-weight: 300;
-    color: #374054;
-    margin: 0 0 15px 0
+    margin: 0 0 15px 0;*/
+    color: black;
 }
 
 .project-info p {
-    color: #74808a;
-    margin: 0 0 15px 0;
-    font-size: 0.9em
+    color: black;
+    /*margin: 0 0 15px 0;
+    font-size: 0.9em*/
 }
 
-.no-image .project-info {
+/*.no-image .project-info {
     position: relative;
     margin: 0;
     padding: 30px 15px;
     transform: none
-}
+}*/
 
 #more-projects {
     display: none
@@ -586,7 +580,7 @@ footer {
 }
 
 #skills h2 {
-    color: #374054;
+    color: burlywood;
     margin-bottom: 50px
 }
 
@@ -601,8 +595,8 @@ footer {
     display: inline-block;
     margin: 7px;
     padding: 5px 10px;
-    color: #374054;
-    background: #e4e4ea;
+    color: black;
+    background: burlywood;
     list-style: none;
     cursor: default;
     font-size: 1.2em
@@ -610,13 +604,13 @@ footer {
 
 #contact {
     padding: 50px 15px;
-    background: #3498db;
+    background: black;
     text-align: center
 }
 
 #contact h2 {
     margin: 0 0 15px 0;
-    color: #fff;
+    color: burlywood;
     font-weight: 500
 }
 
@@ -826,16 +820,18 @@ footer {
         float: none
     }
 
-    
+    /*.project-image {
+        display: none
+    }*/
 
-    .project-info {
+    /*.project-info {
         position: relative;
         margin: 0;
         padding: 30px 15px;
         top: auto;
         transform: none
     }
-
+*/
     footer {
         text-align: center
     }

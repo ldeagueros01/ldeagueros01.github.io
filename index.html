@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Portfolio</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -15,367 +15,385 @@
 </head>
 
 <body>
-    <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
+<div id="mobile-menu-open" class="shadow-large">
+    <i class="fa fa-bars" aria-hidden="true"></i>
+</div>
+<!-- End #mobile-menu-toggle -->
+<header>
+    <div id="mobile-menu-close">
+        <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
     </div>
-    <!-- End #mobile-menu-toggle -->
-    <header>
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
-        </div>
-        <ul id="menu" class="shadow">
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#experience">Experience</a>
-            </li>
-            <li>
-                <a href="#education">Education</a>
-            </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
-            <li>
-                <a href="#publications">Publications</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
-    </header>
-    <!-- End header -->
+    <ul id="menu" class="shadow">
+        <li>
+            <a href="#about">About</a>
+        </li>
+        <li>
+            <a href="#experience">Experience</a>
+        </li>
+        <li>
+            <a href="#education">Education</a>
+        </li>
+        <li>
+            <a href="#projects">Projects</a>
+        </li>
+        <li>
+            <a href="#skills">Skills</a>
+        </li>
+        <li>
+            <a href="#publications">Publications</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+    </ul>
+</header>
+<!-- End header -->
 
-    <div id="lead">
-        <div id="lead-content">
-            <h1>Leandro Deagueros</h1>
-            <h2>Computer Scientist</h2>
-            <!--<h2>Aurora University </h2>-->
+<div id="lead">
+    <div id="lead-content">
+        <h1>Leandro Deagueros</h1>
+        <h2>Computer Scientist</h2>
+        <!--<h2>Aurora University </h2>-->
 
-            <img src="images/profile.jpg" alt="me" width="220px" height="300px" style="border:5px solid black;">
-            <br><br>
-            <a href="Resume%20-%20Copy.docx" class="btn-rounded-white">Download Resume</a>
+        <img src="images/profile.jpg" alt="me" width="220px" height="300px" style="border:10px solid black;">
+        <br><br>
+        <a href="Resume%20-%20Copy.docx" class="btn-rounded-white">Download Resume</a>
 
 
-        </div>
-        <!-- End #lead-content -->
+    </div>
+    <!-- End #lead-content -->
 
 
+    <!--        <div id="lead-overlay"></div>-->
 
-<!--        <div id="lead-overlay"></div>-->
-
-        <div id="lead-down">
+    <div id="lead-down">
             <span>
                 <i class="fa fa-chevron-down" aria-hidden="true"></i>
             </span>
-        </div>
-        <!-- End #lead-down -->
-
-
     </div>
-    <!-- End #lead -->
+    <!-- End #lead-down -->
 
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                        Programmer developer and bilingual team player. Seeking Full time job and internship.
-                    </p>
-                </div>
+
+</div>
+<!-- End #lead -->
+
+<div id="about" class="background-alt">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h2 class="heading">About Me</h2>
             </div>
-        </div>
-    </div>
-    <!-- End #about -->
-
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="Fall 2018 – Spring 2022">
-                <h3>Aurora University</h3>
-                <h4>Student</h4>
+            <div class="col-md-8">
                 <p>
-                    Taken Computer Science Courses across the curriculum that includes Intro to Programming,
-                    Objected Oriented Programming, Data Structures, Database Design and Implementation,
-                    Web Application Development, Software Engineering, Capstone.
+                    Programmer developer and bilingual team player. Seeking Full time job and internship.
                 </p>
             </div>
-
-            <!--<div data-date="2002 – 2017">
-                <h3>Nokia Technologies</h3>
-                <h4>Distinguished Member of Technical Staff</h4>
-                <p>
-                    <ul>
-                <li>Team Lead and Developer (1-5 developers) for Business Intelligence Web-based applications based in LAMP, JavaScript (JQuery), Ajax and Laravel with > 150,000 NCSL. Applications collect data from 12 different databases (Oracle, MySQL, MS SQL Server, proprietary and flat file databases) and produces interactive dashboards and reports.</li>
-                    <li> Master Data Application Architect that included data
-                        mart definition, database view definition, OO design, XML Web Service design, and overall application architecture.
-                    </li>
-                    <li>
-                        Lead Developer and Project Manager for team of 4
-                        that included hands-on coding, project management, quality assurance and SDLC (evolutionary/agile).
-                    </li>
-                    <li>
-                        Environment Support for Apache Web Server, Perl, PHP,
-                        and MySQL admin support
-                    </li>
-            </ul>
-                </p>
-            </div>-->
-
         </div>
     </div>
-    <!-- End #experience -->
+</div>
+<!-- End #about -->
 
-    <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
+<div id="experience" class="background-alt">
+    <h2 class="heading">Experience</h2>
+    <div id="experience-timeline">
+        <div data-date="Fall 2018 – Spring 2022">
             <h3>Aurora University</h3>
-            <span class="education-date">Fall 2018 - Spring 2022</span>
-            <h4>Bachelors Arts Computer Science</h4>
+            <h4>Student</h4>
             <p>
-                Relevant Classes: Intro to Programming,
+                Taken Computer Science Courses across the curriculum that includes Intro to Programming,
                 Objected Oriented Programming, Data Structures, Database Design and Implementation,
                 Web Application Development, Software Engineering, Capstone.
             </p>
         </div>
-        <!-- End .education-block -->
 
-        <!-------------------------------------------------------
-        <div class="education-block">
-            <h3>Waterloo</h3>
-            <span class="education-date">1983</span>
-            <h4>Masters of Science in Computer Science</h4>
-        </div>
-        <div class="education-block">
-            <h3>Southern Illinois University </h3>
-            <span class="education-date">1981</span>
-            <h4>Bachelors Arts Computer Science </h4>
-        </div>
-        ------------------------------------------------------------>
-        <!-- End .education-block -->
+        <!--<div data-date="2002 – 2017">
+            <h3>Nokia Technologies</h3>
+            <h4>Distinguished Member of Technical Staff</h4>
+            <p>
+                <ul>
+            <li>Team Lead and Developer (1-5 developers) for Business Intelligence Web-based applications based in LAMP,
+            JavaScript (JQuery), Ajax and Laravel with > 150,000 NCSL. Applications collect data from 12 different
+            databases (Oracle, MySQL, MS SQL Server, proprietary and flat file databases) and produces interactive
+            dashboards and reports.</li>
+                <li> Master Data Application Architect that included data
+                    mart definition, database view definition, OO design, XML Web Service design, and overall application architecture.
+                </li>
+                <li>
+                    Lead Developer and Project Manager for team of 4
+                    that included hands-on coding, project management, quality assurance and SDLC (evolutionary/agile).
+                </li>
+                <li>
+                    Environment Support for Apache Web Server, Perl, PHP,
+                    and MySQL admin support
+                </li>
+        </ul>
+            </p>
+        </div>-->
+
     </div>
-    <!-- End #education -->
+</div>
+<!-- End #experience -->
 
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
+<div id="education" class="background-alt">
+    <h2 class="heading">Education</h2>
+    <div class="education-block">
+        <h3>Aurora University</h3>
+        <span class="education-date">Fall 2018 - Spring 2022</span>
+        <h4>Bachelors Arts Computer Science</h4>
+        <p>
+            Relevant Classes: Intro to Programming,
+            Objected Oriented Programming, Data Structures, Database Design and Implementation,
+            Web Application Development, Software Engineering, Capstone.
+        </p>
+    </div>
+    <!-- End .education-block -->
+
+    <!-------------------------------------------------------
+    <div class="education-block">
+        <h3>Waterloo</h3>
+        <span class="education-date">1983</span>
+        <h4>Masters of Science in Computer Science</h4>
+    </div>
+    <div class="education-block">
+        <h3>Southern Illinois University </h3>
+        <span class="education-date">1981</span>
+        <h4>Bachelors Arts Computer Science </h4>
+    </div>
+    ------------------------------------------------------------>
+    <!-- End .education-block -->
+</div>
+<!-- End #education -->
+
+<div id="projects" class="background-alt">
+    <h2 class="heading">Projects</h2>
+    <div class="container">
+        <div class="row">
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/AUlogo.jpg" width="290" height="220"/>
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Aurora University Lost & Found Website</h3>
+                    <p>
+                        capstone project by Nathan Engler, Felipe Nino, John Hoffman, Ben Saberon.
+                        <br/>
+                        AIM is a proper inventory management system to track items built specifically for the needs
+                        of the Aurora University Nursing Department.
+
+                    </p>
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/fvsra.jpg" height="210" width="250"/>
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Fox Valley Incident Report Form</h3>
+                    <p>
+                        In CSC2200 several students participated in learning wordpress and building a site for a
+                        non-for-profit client.
+                        This site was selected by the client as the one they liked the best.
+                        During the summer David finished off the site and made some additional modifications for them.
+
+                    </p>
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/blood.jpg" height="230" width="230"/>
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Lunar Prime Photography</h3>
+                    <p>
+                        Student project using Laravel, mysql and JavaScript that allowed nursing
+                        students
+
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/GBF.jpg" height="230" width="230"/>
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Groves Boxing & Fitness</h3>
+                    <p>
+                        Student project using Laravel, mysql and JavaScript that allowed nursing
+                        students
+
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+        </div>
+    </div>
+</div>
+<!-- --------------------------------------  End #projects  -------------------------------------- -->
+
+
+<!--    Publications-->
+<!--<div id="publications" class="background-alt">
+    <h2 class="heading">Publications</h2>
+    <ul id="menu" class="shadow">
         <div class="container">
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/AUlogo.jpg" width="290" height="220"/>
+                        <img src="images/WWPHP.PNG" height="220" width="171">
                     </div>
-                    <!-- End .project-image -->
+                    &lt;!&ndash; End .project-image &ndash;&gt;
                     <div class="project-info">
-                        <h3>Aurora University Lost & Found Website</h3>
+                        <h3>Web Wizard's Guide to PHP - 2006</h3>
                         <p>
-                            capstone project by Nathan Engler, Felipe Nino, John Hoffman, Ben Saberon.
-                        <br />
-                        AIM is a proper inventory management system to track items built specifically for the needs
-                            of the Aurora University Nursing Department.
-
+                            This book is an introduction to PHP that shows readers with little or
+                            no previous Web programming experience how to empower their Web sites with PHP
+                            This book requires no previous programming experience. It provides realistic full-color
+                            screen shots and code examples. Demonstrates all the basic PHP language features. Shows
+                            how to create surveys and order processing systems. Shows how to write PHP scripts that
+                            can save data into files on a Web server. This book is designed for readers with limited
+                            programming skills who want to learn to use PHP; as well as students taking a Web design
+                            course where PHP is used.
                         </p>
                     </div>
-                    <!-- End .project-info -->
+                    &lt;!&ndash; End .project-info &ndash;&gt;
                 </div>
-                <!-- End .project -->
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/fvsra.jpg" height="210" width="250"/>
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Fox Valley Incident Report Form</h3>
-                        <p>
-                            In CSC2200 several students participated in learning wordpress and building a site for a non-for-profit client.
-                            This site was selected by the client as the one they liked the best.
-                            During the summer David finished off the site and made some additional modifications for them.
-
-                        </p>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/blood.jpg" height="230" width="230" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Lunar Prime Photography</h3>
-                        <p>
-                        Student project using Laravel, mysql and JavaScript that allowed nursing
-                        students
-
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/GBF.jpg" height="230" width="230" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Groves Boxing & Fitness</h3>
-                        <p>
-                            Student project using Laravel, mysql and JavaScript that allowed nursing
-                            students
-
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-            </div>
-        </div>
-    </div>
-    <!-- --------------------------------------  End #projects  -------------------------------------- -->
-
-
-<!--    Publications-->
-    <!--<div id="publications" class="background-alt">
-        <h2 class="heading">Publications</h2>
-        <ul id="menu" class="shadow">
-            <div class="container">
                 <div class="row">
                     <div class="project shadow-large">
                         <div class="project-image">
-                            <img src="images/WWPHP.PNG" height="220" width="171">
+                            <img src="images/WWCGI.PNG" height="220" width="171">
                         </div>
                         &lt;!&ndash; End .project-image &ndash;&gt;
                         <div class="project-info">
-                            <h3>Web Wizard's Guide to PHP - 2006</h3>
+                            <h3>Web Wizard's Guide to CGI/Perl - 2004</h3>
                             <p>
-                                This book is an introduction to PHP that shows readers with little or
-                                no previous Web programming experience how to empower their Web sites with PHP
-                                This book requires no previous programming experience. It provides realistic full-color
-                                screen shots and code examples. Demonstrates all the basic PHP language features. Shows
-                                how to create surveys and order processing systems. Shows how to write PHP scripts that
-                                can save data into files on a Web server. This book is designed for readers with limited
-                                programming skills who want to learn to use PHP; as well as students taking a Web design
-                                course where PHP is used.
+                                The Web Wizard's Guide to Perl and CGI teaches readers how to create Web
+                                sites that will have an audience coming back for more. From writing scripts
+                                to analyzing users' data, this book helps readers create well-designed,
+                                user-friendly Web sites. This book covers the following topics: elementary scripts,
+                                programming and Perl basics, the Perl/Web interface, advanced Perl statements,
+                                how to store data in arrays, how to use Perl to work with Patterns,
+                                and how to use multiple page forms that share data. It assumes no programming experience,
+                                and also acts as a handy reference.
                             </p>
                         </div>
                         &lt;!&ndash; End .project-info &ndash;&gt;
                     </div>
-                    <div class="row">
-                        <div class="project shadow-large">
-                            <div class="project-image">
-                                <img src="images/WWCGI.PNG" height="220" width="171">
-                            </div>
-                            &lt;!&ndash; End .project-image &ndash;&gt;
-                            <div class="project-info">
-                                <h3>Web Wizard's Guide to CGI/Perl - 2004</h3>
-                                <p>
-                                    The Web Wizard's Guide to Perl and CGI teaches readers how to create Web
-                                    sites that will have an audience coming back for more. From writing scripts
-                                    to analyzing users' data, this book helps readers create well-designed,
-                                    user-friendly Web sites. This book covers the following topics: elementary scripts,
-                                    programming and Perl basics, the Perl/Web interface, advanced Perl statements,
-                                    how to store data in arrays, how to use Perl to work with Patterns,
-                                    and how to use multiple page forms that share data. It assumes no programming experience,
-                                    and also acts as a handy reference.
-                                </p>
-                            </div>
-                            &lt;!&ndash; End .project-info &ndash;&gt;
+                &lt;!&ndash; End .project &ndash;&gt;
+            </div>
+                <div class="row">
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="images/IEEE.PNG" height="220" width="171">
                         </div>
+                        &lt;!&ndash; End .project-image &ndash;&gt;
+                        <div class="project-info">
+                            <h3> Large IT Computer Center Vision for Storage - 1992</h3>
+                            <p>
+                                Paper describes a vision for a large computer center storage system for
+                                distributed Unix systems. It reviews how we use mass storage and why,
+                                our redundancy needs and specific recommendations for the future.
+                        </div>
+
+                        &lt;!&ndash; End .project-info &ndash;&gt;
+                    </div>
                     &lt;!&ndash; End .project &ndash;&gt;
                 </div>
-                    <div class="row">
-                        <div class="project shadow-large">
-                            <div class="project-image">
-                                <img src="images/IEEE.PNG" height="220" width="171">
-                            </div>
-                            &lt;!&ndash; End .project-image &ndash;&gt;
-                            <div class="project-info">
-                                <h3> Large IT Computer Center Vision for Storage - 1992</h3>
-                                <p>
-                                    Paper describes a vision for a large computer center storage system for
-                                    distributed Unix systems. It reviews how we use mass storage and why,
-                                    our redundancy needs and specific recommendations for the future.
-                            </div>
-
-                            &lt;!&ndash; End .project-info &ndash;&gt;
-                        </div>
-                        &lt;!&ndash; End .project &ndash;&gt;
-                    </div>
-            </div>
-        </ul>
-    </div>-->
-
-
-        <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>JavaScript</li><li>Node.js</li><li>React</li><li>Java</li><li>C++</li><li>JavaScript</li>
-            <li>JavaFx </li><li>MySQL </li><li>Oracle </li><li>Mocha/Chai </li><li>BootStrap</li><li>JQuery</li>
-        </ul>
-    </div>
-    <!-- -------------------------------------- End #skills  --------------------------------------End #skills -->
-
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
         </div>
-        <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
+    </ul>
+</div>-->
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; 2021 Leandro Deagueros
-                    </p>
-                </div>
-                <div class="col-sm-2 top">
+
+<div id="skills" class="background-alt">
+    <h2 class="heading">Skills</h2>
+    <ul>
+        <li>JavaScript</li>
+        <li>Node.js</li>
+        <li>React</li>
+        <li>Java</li>
+        <li>C++</li>
+        <li>JavaScript</li>
+        <li>JavaFx</li>
+        <li>MySQL</li>
+        <li>Oracle</li>
+        <li>Mocha/Chai</li>
+        <li>BootStrap</li>
+        <li>JQuery</li>
+    </ul>
+</div>
+<!-- -------------------------------------- End #skills  --------------------------------------End #skills -->
+
+<div id="contact">
+    <h2>Get in Touch</h2>
+    <div id="contact-form">
+        <form method="POST" action="https://formspree.io/email@email.com">
+            <input type="hidden" name="_subject" value="Contact request from personal website"/>
+            <input type="email" name="_replyto" placeholder="Your email" required>
+            <textarea name="message" placeholder="Your message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <!-- End #contact-form -->
+</div>
+<!-- End #contact -->
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5 copyright">
+                <p>
+                    Copyright &copy; 2021 Leandro Deagueros
+                </p>
+            </div>
+            <div class="col-sm-2 top">
                     <span id="to-top">
                         <i class="fa fa-chevron-up" aria-hidden="true"></i>
                     </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                </div>
+            </div>
+            <div class="col-sm-5 social">
+                <ul>
+                    <li>
+                        <a href="https://github.com/" target="_blank"><i class="fa fa-github"
+                                                                         aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow"
+                                                                                aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin"
+                                                                           aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"
+                                                                               aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"
+                                                                              aria-hidden="true"></i></a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </footer>
-    <!-- End footer -->
+    </div>
+</footer>
+<!-- End footer -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/scripts.min.js"></script>
 </body>
 
 </html>
