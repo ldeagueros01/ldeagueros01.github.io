@@ -67,6 +67,7 @@ header {
     left: 0;
     right: 0;
     text-align: center;
+
     z-index: 10;
     animation-name: dropHeader;
     animation-iteration-count: 1;
@@ -76,8 +77,9 @@ header {
 
 header ul {
     display: inline-block;
-    background: #fff;
+    background: black;
     text-align: center;
+    font-size: 1.5em;
     padding: 10px;
     margin: 0;
     border-bottom-right-radius: 4px;
@@ -146,7 +148,7 @@ header.sticky {
 }
 
 #mobile-menu-close span {
-    font-size: 0.5em;
+    font-size: 0.7em;
     text-transform: uppercase
 }
 
