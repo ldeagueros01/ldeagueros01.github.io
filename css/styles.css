@@ -199,14 +199,14 @@ footer {
 
 .social li {
     display: inline-block;
-    font-size: 3em;
+    font-size: 4em;
     list-style: none;
 }
 
 .social a {
     display: block;
     color: red;
-    padding: 15px;
+    padding: 10px;
 }
 
 .social a:hover {
