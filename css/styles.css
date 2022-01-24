@@ -265,10 +265,10 @@ footer {
     height: 140vh;
     min-height: 500px;
     max-height: 1080px;
-    background: #0e84b5 url(../images/blue.jpg) no-repeat center;
-   /* background: url(../images/blue.jpg) no-repeat center;
+    /*background: #0e84b5 url(../images/blue.jpg) no-repeat center;*/
+    /*background: url(../images/blue.jpg) no-repeat center;*/
     background-size: contain;
-    background-color: #0e84b5;*/
+    background-color: #0e84b5;
     border: 20px double black;
     padding: 10px;
     overflow: hidden
